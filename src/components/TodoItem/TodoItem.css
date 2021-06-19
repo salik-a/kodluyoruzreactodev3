@@ -1,0 +1,24 @@
+li {
+    list-style: none;
+    height: 3rem;
+    width: 50%;
+    padding-left: 22px;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius : 50px; 
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    
+  }
+  li:nth-child(2n) {
+    background-color: rgb(255, 255, 255);
+  }
+  .done {
+    text-decoration: line-through;
+  }
+  .not-done {
+    text-decoration: none;
+  }
